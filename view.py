@@ -11,23 +11,23 @@ import shutil
 
 def entrada ():
 
-diretorio="C:\\Users\\Bruno\\Desktop"
-pasta_python="C:\\Users\\Bruno\\Desktop\\Pasta Python"
+    diretorio="C:\\Users\\Bruno\\Desktop"
+    pasta_python="C:\\Users\\Bruno\\Desktop\\Pasta Python"
 
-os.chdir(str(diretorio))
+    os.chdir(str(diretorio))
 
-pasta_python="Pasta Python/"
-if (not os.path.exists(pasta_python)):
-    os.mkdir(pasta_python)
+    pasta_python="Pasta Python/"
+    if (not os.path.exists(pasta_python)):
+        os.mkdir(pasta_python)
 
-os.chdir(str(pasta_python))
+    os.chdir(str(pasta_python))
 
-documentos="Documentos/"
-if (not os.path.exists(documentos)):
-    os.mkdir(documentos)
+    documentos="Documentos/"
+    if (not os.path.exists(documentos)):
+        os.mkdir(documentos)
 
-planilhas="Planilhas/"
-if (not os.path.exists(planilhas)):
-    os.mkdir(planilhas)
+    planilhas="Planilhas/"
+    if (not os.path.exists(planilhas)):
+        os.mkdir(planilhas)
 
-return dados
+    return dados
