@@ -12,14 +12,14 @@ import shutil
 
 def main():
 
-dados=view.entrada()
-files=model.arquivos()
+    dados=view.entrada()
+    files=model.arquivos()
 
-model.os.rename("DespesasCorrentes.xlsx","Planilhas\\DespesasCorrentes.xlsx")
-model.os.rename("DespesasCorrentes.docx","Documentos\\DespesasCorrentes.docx")
-model.os.rename("DespesasCapital.xlsx","Planilhas\\DespesasCapital.xlsx")
-model.os.rename("DespesasCapital.docx","Documentos\\DespesasCapital.docx")        
-model.os.rename("Relatorio.docx","Documentos\\Relatorio.docx")
+    model.os.rename("DespesasCorrentes.xlsx","Planilhas\\DespesasCorrentes.xlsx")
+    model.os.rename("DespesasCorrentes.docx","Documentos\\DespesasCorrentes.docx")
+    model.os.rename("DespesasCapital.xlsx","Planilhas\\DespesasCapital.xlsx")
+    model.os.rename("DespesasCapital.docx","Documentos\\DespesasCapital.docx")        
+    model.os.rename("Relatorio.docx","Documentos\\Relatorio.docx")
 
 if __name__ == "__main__":
     main()
